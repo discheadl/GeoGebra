@@ -80,7 +80,7 @@ class _SettingsMenuState extends State<SettingsMenu> with SingleTickerProviderSt
         SwitchListTile(
           title: const Text("Auxiliary Objects"),
           value: _auxiliaryObjects,
-          activeColor: const Color(0xFF6762A6),
+          activeThumbColor: const Color(0xFF6762A6),
           onChanged: (val) => setState(() => _auxiliaryObjects = val),
         ),
       ],
@@ -103,13 +103,13 @@ class _SettingsMenuState extends State<SettingsMenu> with SingleTickerProviderSt
         SwitchListTile(
           title: const Text("Show Axes"),
           value: _showAxes,
-          activeColor: const Color(0xFF6762A6),
+          activeThumbColor: const Color(0xFF6762A6),
           onChanged: (val) => setState(() => _showAxes = val),
         ),
         SwitchListTile(
           title: const Text("Show Grid"),
           value: _showGrid,
-          activeColor: const Color(0xFF6762A6),
+          activeThumbColor: const Color(0xFF6762A6),
           onChanged: (val) => setState(() => _showGrid = val),
         ),
         
